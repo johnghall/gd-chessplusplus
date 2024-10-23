@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=3 uid="uid://1sqr57h22eeo"]
+
+[ext_resource type="Texture2D" uid="uid://p8w8exgukin4" path="res://assets/black_pieces.tres" id="1_mv37s"]
+[ext_resource type="Script" path="res://components/pieces/piece.gd" id="1_wg62a"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o6nm0"]
+atlas = ExtResource("1_mv37s")
+region = Rect2(0, 0, 16, 16)
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_wg62a")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = SubResource("AtlasTexture_o6nm0")

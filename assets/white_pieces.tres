@@ -1,0 +1,9 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://boxxjp7e0fmc7"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oklgx"]
+
+[resource]
+resource_local_to_scene = true
+atlas = SubResource("AtlasTexture_oklgx")
+region = Rect2(64, 0, 16, 16)
+filter_clip = true
